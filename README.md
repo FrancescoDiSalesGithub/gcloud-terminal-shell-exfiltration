@@ -35,8 +35,8 @@ Where DB may be:
 * default_configs.db
 
 The most interesting db is access_tokens.db in which there are stored the oauth2 access tokens for each profile. The only available table in that db is access_tokens which has the following columns:
-*account_id (gmail account)
-*access_token (access token)
-*token_expiry (token expiration as a date)
-*rapt_token
-*id_token
+* account_id (gmail account)
+* access_token (access token)
+* token_expiry (token expiration as a date)
+* rapt_token
+* id_token
